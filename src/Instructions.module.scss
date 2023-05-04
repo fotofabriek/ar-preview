@@ -1,0 +1,16 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.code {
+    display: block;
+    max-width: 100ch;
+    text-align: left;
+    border-radius: 4px;
+    background-color: rgb(200 200 200 / 25%);
+    padding: 24px 48px;
+}
