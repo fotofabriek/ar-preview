@@ -1,12 +1,18 @@
-import './App.css'
+import './App.module.scss';
 import { Instructions } from './Instructions.tsx';
+import styles from './App.module.scss';
+import { Slider } from './Slider.tsx';
 
-function App() {
-  return (
-    <>
-        <Instructions />
-    </>
-  )
-}
+const App = () => (
+    <div className={ styles.container }>
+        <div className={ styles.slider }>
+            <Slider/>
+        </div>
 
-export default App
+        <div className={ styles.instructions }>
+            <Instructions/>
+        </div>
+    </div>
+);
+
+export default App;

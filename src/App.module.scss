@@ -1,0 +1,20 @@
+.container {
+  height: 100vh;
+  max-width: 100%;
+  width: 1280px;
+  margin: auto;
+
+  display: grid;
+  align-items: center;
+  grid-template-areas: "instructions slider";
+  grid-template-columns: 2fr 1fr;
+  gap: 100px;
+}
+
+.slider {
+  grid-area: slider;
+}
+
+.instructions {
+  grid-area: instructions;
+}
